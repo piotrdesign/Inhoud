@@ -22,7 +22,6 @@ class MY_Model extends CI_Model {
     }
 
     public function get($id = NULL, $single = FALSE) {
-
         if ($id != NULL) {
             $filter = $this->_primary_filter;
             $id = $filter($id);
@@ -52,7 +51,7 @@ class MY_Model extends CI_Model {
 
         //Set timestamps
             if ($this->_timestamps == TRUE) {
-                $now = date('d-m-Y H:i:s');
+                $now = date('Y-m-d H:i:s');
                 $id || $data['created'] = $now;
                 $data['modified'] = $now;
             }

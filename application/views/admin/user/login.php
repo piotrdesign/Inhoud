@@ -12,7 +12,7 @@
         </tr>
         <tr>
             <td>Password</td>
-            <td><?php echo form_input('password'); ?></td>
+            <td><?php echo form_password('password'); ?></td>
         </tr>
         <tr>
             <td></td>

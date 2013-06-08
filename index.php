@@ -2,6 +2,8 @@
 
     date_default_timezone_get('Europe/Poland');
 
+
+
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT

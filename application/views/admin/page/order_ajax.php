@@ -1,6 +1,7 @@
 <?php
 
 echo get_ol($pages);
+
 function get_ol ($array, $child = FALSE) {
     $str = '';
 
@@ -24,6 +25,7 @@ function get_ol ($array, $child = FALSE) {
 
     return $str;
 }
+
 ?>
 
 <script>

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/application/config/config.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/models/page_m.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/views/_main_layout.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/views/components/page_head.php" charset="UTF-8" />
   </component>
 </project>
 

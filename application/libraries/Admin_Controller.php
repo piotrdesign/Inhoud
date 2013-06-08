@@ -18,5 +18,6 @@ class Admin_Controller extends MY_Controller {
             redirect('admin/user/login');
         }
     }
+
     }
 }

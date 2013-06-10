@@ -36,4 +36,15 @@ class Article_m extends MY_Model {
         return $article;
     }
 
+    public function set_published() {
+        $this->db->where('pubdate <=', date('Y-m-d'));
+    }
+
+    public function get_recent($limit = 3) {
+        $limit = (int) $limit;
+        $this->set_published();
+        $this->db->limit($limit);
+        return parent::get();
+    }
+
  }

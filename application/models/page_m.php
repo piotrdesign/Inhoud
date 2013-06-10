@@ -9,6 +9,11 @@ class Page_m extends MY_Model {
             'label' => 'Parent',
             'rules' => 'trim|intval'
         ),
+        'template' => array(
+            'field' => 'template',
+            'label' => 'Template',
+            'rules' => 'trim|required|xss_clean'
+        ),
         'title' => array(
             'field' => 'title',
             'label' => 'Title',
@@ -32,7 +37,13 @@ class Page_m extends MY_Model {
         $page->slug = '';
         $page->body = '';
         $page->parent_id = 0;
+        $page->template = 'page';
         return $page;
+    }
+
+    public function get_archive_link() {
+        $page = parent::get_by(array('template' => 'news_archive'), TRUE);
+        return isset($page->slug) ? $page->slug : '';
     }
 
     public function delete($id) {
@@ -74,8 +85,6 @@ class Page_m extends MY_Model {
         }
         return $array;
     }
-
-
 
     public function get_with_parent($id = NULL, $single = FALSE) {
         $this->db->select('pages.*, p.slug as parent_slug, p.title as parent_title');

@@ -4,7 +4,6 @@ function add_meta_title($string){
     $CI->data['meta_title'] = e($string) . ' - ' . $CI->data['meta_title'];
 }
 
-
 function btn_edit($uri){
     return anchor($uri, '<i class="icon-edit"></i>');
 }
@@ -55,7 +54,7 @@ function e($string){
     return htmlspecialchars($string);
 }
 
-function get_menu ($array, $child = FALSE)
+function get_menu($array, $child = FALSE)
 {
     $CI =& get_instance();
     $str = '';

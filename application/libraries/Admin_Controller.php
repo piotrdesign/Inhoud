@@ -1,5 +1,5 @@
 <?php
-class Admin_Controller extends MY_Controller {
+class Admin_Controller extends IH_Controller {
     function __construct() {
         parent::__construct();
         $this->data['meta_title'] = 'My awesome CMS';

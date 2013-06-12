@@ -1,5 +1,5 @@
 <?php
-class User_M extends MY_Model {
+class User_M extends IH_Model {
 
     protected $_table_name = 'users';
     protected $_order_by = 'name';
@@ -78,10 +78,5 @@ class User_M extends MY_Model {
     public function hash($string){
         return hash('sha512', $string . config_item('encryption_key'));
     }
-
-
-
-
-
 
 }

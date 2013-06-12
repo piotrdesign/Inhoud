@@ -1,5 +1,5 @@
 <?php
-class Migration_Create_users extends CI_Migration {
+class Migration_Create_gallery_categories extends CI_Migration {
 
     public function up()
     {
@@ -10,25 +10,27 @@ class Migration_Create_users extends CI_Migration {
                 'unsigned' => TRUE,
                 'auto_increment' => TRUE
             ),
-            'email' => array(
-                'type' => 'VARCHAR',
-                'constraint' => '100',
-            ),
-            'password' => array(
-                'type' => 'VARCHAR',
-                'constraint' => '128',
-            ),
             'name' => array(
                 'type' => 'VARCHAR',
                 'constraint' => '100',
             ),
+            'order' => array(
+                'type' => 'INT',
+                'constraint' => '11',
+            ),
+            'created' => array(
+                'type' => 'DATETIME',
+            ),
+            'modified' => array(
+                'type' => 'DATETIME',
+            )
         ));
         $this->dbforge->add_key('id', TRUE);
-        $this->dbforge->create_table('users');
+        $this->dbforge->create_table('gallery-categories');
     }
 
     public function down()
     {
-        $this->dbforge->drop_table('users');
+        $this->dbforge->drop_table('gallery-categories');
     }
 }

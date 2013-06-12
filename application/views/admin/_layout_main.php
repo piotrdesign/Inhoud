@@ -4,11 +4,11 @@
         <div class="navbar-inner">
             <a class="brand" href="<?php echo site_url('admin/dashboard'); ?>"><?php echo $meta_title; ?></a>
             <ul class="nav">
-                <li class="active"><a href="<?php echo site_url('admin/dashboard'); ?>">Dashboard</a></li>
-                <li><?php echo anchor('admin/page', 'pages'); ?></li>
-                <li><?php echo anchor('admin/page/order', 'order pages'); ?></li>
-                <li><?php echo anchor('admin/article', 'news articles'); ?></li>
-                <li><?php echo anchor('admin/user', 'users'); ?></li>
+                <li class="active"><a href="<?php echo site_url('admin/dashboard'); ?>">Pulpit</a></li>
+                <li><?php echo anchor('admin/article', 'Aktualności'); ?></li>
+                <li><?php echo anchor('admin/page', 'Strony'); ?></li>
+                <li><?php echo anchor('admin/page/order', 'Menu'); ?></li>
+                <li><?php echo anchor('admin/user', 'Użytkownicy'); ?></li>
             </ul>
         </div>
     </div>
@@ -25,8 +25,8 @@
             <!--Sidebar-->
             <div class="span3">
                 <section>
-                    <?php echo mailto('mail@gmail.com', '<i class="icon-user"></i> mail@gmail.com'); ?><br>
-                    <?php echo anchor('admin/user/logout', '<i class="icon-off"></i> logout'); ?>
+                    <i class="icon-user"></i> Witaj <?php echo $this->session->userdata('name'); ?><br>
+                    <?php echo anchor('admin/user/logout', '<i class="icon-off"></i> wyloguj się'); ?>
                 </section>
             </div>
         </div>

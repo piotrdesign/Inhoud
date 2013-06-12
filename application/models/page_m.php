@@ -1,5 +1,5 @@
 <?php
-class Page_m extends MY_Model {
+class Page_m extends IH_Model {
 
     protected $_table_name = 'pages';
     protected $_order_by = 'parent_id, order';

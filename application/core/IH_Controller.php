@@ -1,5 +1,5 @@
 <?php
-class MY_Controller extends CI_Controller {
+class IH_Controller extends CI_Controller {
 
     public $data = array();
     function __construct() {

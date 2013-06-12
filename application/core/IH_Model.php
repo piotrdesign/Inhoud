@@ -1,5 +1,5 @@
 <?php
-class MY_Model extends CI_Model {
+class IH_Model extends CI_Model {
 
     protected $_table_name = '';
     protected $_primary_key = 'id';
@@ -52,8 +52,12 @@ class MY_Model extends CI_Model {
         //Set timestamps
             if ($this->_timestamps == TRUE) {
                 $now = date('Y-m-d H:i:s');
-                $id || $data['created'] = $now;
-                $data['modified'] = $now;
+                if(!$id) {
+                    $data['created'] = $now;
+                }
+                else {
+                    $data['modified'] = $now;
+                }
             }
 
         //Insert

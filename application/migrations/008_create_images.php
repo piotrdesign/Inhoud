@@ -1,5 +1,5 @@
 <?php
-class Migration_Create_gallery_categories extends CI_Migration {
+class Migration_Create_images extends CI_Migration {
 
     public function up()
     {
@@ -10,27 +10,30 @@ class Migration_Create_gallery_categories extends CI_Migration {
                 'unsigned' => TRUE,
                 'auto_increment' => TRUE
             ),
-            'name' => array(
+            'url' => array(
                 'type' => 'VARCHAR',
-                'constraint' => '100',
+                'constraint' => '250',
+            ),
+            'thumbnail_url' => array(
+                'type' => 'VARCHAR',
+                'constraint' => '250',
             ),
             'order' => array(
                 'type' => 'INT',
                 'constraint' => '11',
             ),
-            'created' => array(
-                'type' => 'DATETIME',
+            'gallery_id' => array(
+                'type' => 'INT',
+                'constraint' => '11',
             ),
-            'modified' => array(
-                'type' => 'DATETIME',
-            )
+
         ));
         $this->dbforge->add_key('id', TRUE);
-        $this->dbforge->create_table('gallery-categories');
+        $this->dbforge->create_table('images');
     }
 
     public function down()
     {
-        $this->dbforge->drop_table('gallery-categories');
+        $this->dbforge->drop_table('images');
     }
 }

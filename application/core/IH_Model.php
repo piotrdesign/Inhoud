@@ -52,12 +52,8 @@ class IH_Model extends CI_Model {
         //Set timestamps
             if ($this->_timestamps == TRUE) {
                 $now = date('Y-m-d H:i:s');
-                if(!$id) {
-                    $data['created'] = $now;
-                }
-                else {
-                    $data['modified'] = $now;
-                }
+                $id || $data['created'] = $now;
+                $data['modified'] = $now;
             }
 
         //Insert

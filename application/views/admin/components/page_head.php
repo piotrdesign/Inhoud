@@ -18,7 +18,7 @@
     <script type="text/javascript" src="<?php echo base_url('js/tinymce/tinymce.min.js'); ?>"></script>
     <script type="text/javascript">
         tinymce.init({
-            selector: "textarea"
+            selector: "textarea.tinymce"
         });
     </script>
 </head>

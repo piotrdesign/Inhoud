@@ -4,19 +4,19 @@
     <table class="table table-striped">
         <thead>
         <tr>
-            <th>Name</th>
-            <th>Last modified</th>
-            <th>Edit</th>
-            <th>Delete</th>
+            <th>Nazwa</th>
+            <th>Dodaj/Usuń zdjęcia</th>
+            <th>Edytuj</th>
+            <th>Usuń</th>
         </tr>
         </thead>
         <tbody>
-        <?php if (count($categories)): foreach($categories as $category): ?>
+        <?php if (count($galleries)): foreach($galleries as $gallery): ?>
             <tr>
-                <td><?php echo anchor('admin/gallery/edit/' . $category->id, $category->name); ?></td>
-                <td><?php echo $category->modified; ?></td>
-                <td><?php echo btn_edit('admin/gallery/edit/' . $category->id); ?></td>
-                <td><?php echo btn_delete('admin/gallery/delete/' . $category->id); ?></td>
+                <td><?php echo anchor('admin/gallery/edit/' . $gallery->id, $gallery->name); ?></td>
+                <td><?php echo btn_manager('admin/gallery/uploader/' . $gallery->id, $gallery->name); ?></td>
+                <td><?php echo btn_edit('admin/gallery/edit/' . $gallery->id); ?></td>
+                <td><?php echo btn_delete('admin/gallery/delete/' . $gallery->id); ?></td>
             </tr>
         <?php endforeach; ?>
         <?php else: ?>

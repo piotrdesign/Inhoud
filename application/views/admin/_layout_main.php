@@ -7,6 +7,7 @@
                 <li class="active"><a href="<?php echo site_url('admin/dashboard'); ?>">Pulpit</a></li>
                 <li><?php echo anchor('admin/article', 'Aktualności'); ?></li>
                 <li><?php echo anchor('admin/page', 'Strony'); ?></li>
+                <li><?php echo anchor('admin/gallery', 'Galeria'); ?></li>
                 <li><?php echo anchor('admin/page/order', 'Menu'); ?></li>
                 <li><?php echo anchor('admin/user', 'Użytkownicy'); ?></li>
             </ul>

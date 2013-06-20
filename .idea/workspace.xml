@@ -17,7 +17,7 @@
     <file path="/migration.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369926473754" ignored="false" />
     <file path="/001_create_users.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369926538147" ignored="false" />
     <file path="$PROJECT_DIR$/system/language/english/migration_lang.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369927651936" ignored="false" />
-    <file path="/a.dummy" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371592996764" ignored="false" />
+    <file path="/a.dummy" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371760458375" ignored="false" />
     <file path="/002_create_pages.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369927852860" ignored="false" />
     <file path="/MY_model.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369936651881" ignored="false" />
     <file path="/page_m.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1370872820211" ignored="false" />
@@ -35,24 +35,13 @@
     <file path="/003_create_sessions.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369984608896" ignored="false" />
     <file path="/cms_helper.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371304614138" ignored="false" />
     <file path="/edit.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371388552547" ignored="false" />
-    <file path="$PROJECT_DIR$/system/libraries/Encrypt.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
-    <file path="$PROJECT_DIR$/system/libraries/Parser.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
     <file path="$PROJECT_DIR$/system/helpers/captcha_helper.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
     <file path="$PROJECT_DIR$/system/helpers/download_helper.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
-    <file path="$PROJECT_DIR$/system/libraries/Upload.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
     <file path="$PROJECT_DIR$/system/helpers/html_helper.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
     <file path="$PROJECT_DIR$/system/helpers/string_helper.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
-    <file path="$PROJECT_DIR$/system/libraries/Trackback.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
     <file path="$PROJECT_DIR$/system/helpers/file_helper.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
-    <file path="$PROJECT_DIR$/system/libraries/Zip.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
-    <file path="$PROJECT_DIR$/system/libraries/Session.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
-    <file path="$PROJECT_DIR$/system/libraries/Calendar.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
     <file path="$PROJECT_DIR$/js/bootstrap.js" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
-    <file path="$PROJECT_DIR$/system/libraries/Table.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
-    <file path="$PROJECT_DIR$/system/libraries/Form_validation.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
-    <file path="$PROJECT_DIR$/system/libraries/Email.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
     <file path="$PROJECT_DIR$/system/database/drivers/pdo/pdo_result.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950155" ignored="false" />
-    <file path="$PROJECT_DIR$/system/libraries/Xmlrpcs.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950156" ignored="false" />
     <file path="$PROJECT_DIR$/system/libraries/Cache/Cache.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1369996950156" ignored="false" />
     <file path="/page_head.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1370885556920" ignored="false" />
     <file path="/004.parent_id_to_pages.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1370004063296" ignored="false" />
@@ -76,7 +65,7 @@
     <file path="/007_create_gallery.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371068824986" ignored="false" />
     <file path="/007_create_category_of_gallery.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371069176338" ignored="false" />
     <file path="/007_create_gallery_category.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371069779267" ignored="false" />
-    <file path="/gallery.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371374630637" ignored="false" />
+    <file path="/gallery.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371767151659" ignored="false" />
     <file path="/gallery_m.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371301901734" ignored="false" />
     <file path="/IH_Model.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371145423465" ignored="false" />
     <file path="/gallery_categories_m.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371071902121" ignored="false" />
@@ -93,6 +82,9 @@
     <file path="/images.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371393527082" ignored="false" />
     <file path="/uploader2.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371592514092" ignored="false" />
     <file path="/old.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371592976114" ignored="false" />
+    <file path="/IH_Upload.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371767900233" ignored="false" />
+    <file path="/image.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371763737679" ignored="false" />
+    <file path="/image_helper.php" changelist="a7041b17-be27-4683-884f-a9e54ff01218" time="1371767099788" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +103,53 @@
     <favorites_list name="Inhoud" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="IH_Upload.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/libraries/IH_Upload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="54" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.76119405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="41" selection-start="1672" selection-end="1672" vertical-scroll-proportion="-11.769231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin_Controller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/libraries/Admin_Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="36" selection-start="330" selection-end="330" vertical-scroll-proportion="-5.230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="images.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/images.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="43" selection-start="205" selection-end="205" vertical-scroll-proportion="-3.9230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/gallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="30" selection-start="1516" selection-end="1526" vertical-scroll-proportion="-4.269231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -124,22 +162,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/admin/page.php" />
-        <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/application/config/cms_config.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/page/edit.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/components/page_head.php" />
-        <option value="$PROJECT_DIR$/application/models/uploader_m.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/gallery/uploader.php" />
-        <option value="$PROJECT_DIR$/application/models/page_m.php" />
-        <option value="$PROJECT_DIR$/application/controllers/images_examples.php" />
-        <option value="$PROJECT_DIR$/application/controllers/admin/images.php" />
-        <option value="$PROJECT_DIR$/application/config/migration.php" />
-        <option value="$PROJECT_DIR$/application/config/image_lib.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/uploader2.php" />
         <option value="$PROJECT_DIR$/application/config/upload.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/old.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/uploader.php" />
+        <option value="$PROJECT_DIR$/system/libraries/Upload.php" />
+        <option value="$PROJECT_DIR$/application/core/IH_Upload.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/image.php" />
+        <option value="$PROJECT_DIR$/application/config/image.php" />
+        <option value="$PROJECT_DIR$/application/helpers/image_helper.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/gallery.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/gallery/images.php" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/gallery/index.php" />
+        <option value="$PROJECT_DIR$/application/libraries/IH_Upload.php" />
+        <option value="$PROJECT_DIR$/application/config/autoload.php" />
+        <option value="$PROJECT_DIR$/application/libraries/Admin_Controller.php" />
       </list>
     </option>
   </component>
@@ -198,6 +236,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,7 +265,177 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inhoud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,7 +499,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,8 +507,8 @@
     <property name="options.lastSelected" value="reference.idesettings.emmet" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/GitHub.appref-ms" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="herbi-bp-nowy" serverId="4db4f04e-2b48-4a95-8e8b-32963959319b" autoUpload="true">
     <servers>
@@ -364,11 +572,11 @@
       <recent name="C:\Users\Marek\Desktop\Codeigniter\Inhoud\application\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marek\Desktop\Codeigniter\Inhoud\application\libraries" />
       <recent name="C:\Users\Marek\Desktop\Codeigniter\Inhoud\application\controllers\admin" />
       <recent name="C:\Users\Marek\Desktop\Codeigniter\Inhoud\application\config" />
       <recent name="C:\Users\Marek\Desktop\Codeigniter\Inhoud\application\views" />
       <recent name="C:\Users\Marek\Desktop\Codeigniter\Inhoud\application\config\development" />
-      <recent name="C:\Users\Marek\Desktop\Codeigniter\Inhoud\application\views\admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -430,7 +638,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20757575" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21060605" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -508,49 +716,88 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/models/gallery_m.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/old_uploader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="52" column="71" selection-start="1284" selection-end="1284" vertical-scroll-proportion="-6.230769">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/article_m.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.346154">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/page/edit.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="78" selection-start="1013" selection-end="1018" vertical-scroll-proportion="0.71785027" />
+        <state line="13" column="19" selection-start="317" selection-end="317" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/page/index.php">
+    <entry file="file://$PROJECT_DIR$/application/helpers/image_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="12" column="104" selection-start="360" selection-end="360" vertical-scroll-proportion="0.38059703">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/article/edit.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/page_m.php">
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="39" selection-end="76" vertical-scroll-proportion="0.09550562" />
+        <state line="43" column="66" selection-start="1589" selection-end="1589" vertical-scroll-proportion="-14.076923">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/migrations/008_create_images.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="21" selection-start="705" selection-end="705" vertical-scroll-proportion="0.66853935" />
+        <state line="16" column="65" selection-start="618" selection-end="618" vertical-scroll-proportion="0.5074627">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/migration.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="54" column="30" selection-start="1516" selection-end="1526" vertical-scroll-proportion="-4.269231">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/migration.php">
+    <entry file="file://$PROJECT_DIR$/system/libraries/Upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="32" selection-start="805" selection-end="805" vertical-scroll-proportion="0.73220974" />
+        <state line="26" column="6" selection-start="732" selection-end="741" vertical-scroll-proportion="0.8451243">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="88" selection-end="96" vertical-scroll-proportion="0.0665362">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="43" selection-start="205" selection-end="205" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="41" selection-start="1672" selection-end="1672" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/IH_Controller.php">
@@ -560,42 +807,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/constants.php">
+    <entry file="file://$PROJECT_DIR$/application/core/IH_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/image_lib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="256" selection-end="256" vertical-scroll-proportion="0.25373134">
+        <state line="60" column="39" selection-start="1550" selection-end="1576" vertical-scroll-proportion="0.47574627">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+    <entry file="file://$PROJECT_DIR$/application/libraries/Admin_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="36" selection-start="330" selection-end="330" vertical-scroll-proportion="-5.230769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/uploader.php">
+    <entry file="file://$PROJECT_DIR$/application/libraries/IH_Upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="555" selection-end="555" vertical-scroll-proportion="0.09514926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.063432835">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="14" selection-start="522" selection-end="549" vertical-scroll-proportion="0.14365672">
+        <state line="63" column="54" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.76119405">
           <folding />
         </state>
       </provider>

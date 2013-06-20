@@ -41,7 +41,7 @@
 $route['default_controller'] = "page";
 $route['404_override'] = 'page';
 $route['article/(:num)/(:any)'] = 'article/index/$1/$2';
-$route['admin/gallery/uploader/(:num)'] = 'admin/uploader/index/$1';
+$route['admin/gallery/manager/(:num)'] = 'admin/gallery/add_images/$1';
 
 
 /* End of file routes.php */

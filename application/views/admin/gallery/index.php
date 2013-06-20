@@ -14,7 +14,7 @@
         <?php if (count($galleries)): foreach($galleries as $gallery): ?>
             <tr>
                 <td><?php echo anchor('admin/gallery/edit/' . $gallery->id, $gallery->name); ?></td>
-                <td><?php echo btn_manager('admin/gallery/uploader/' . $gallery->id, $gallery->name); ?></td>
+                <td><?php echo btn_manager('admin/gallery/manager/' . $gallery->id, $gallery->name); ?></td>
                 <td><?php echo btn_edit('admin/gallery/edit/' . $gallery->id); ?></td>
                 <td><?php echo btn_delete('admin/gallery/delete/' . $gallery->id); ?></td>
             </tr>

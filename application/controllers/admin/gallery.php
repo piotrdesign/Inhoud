@@ -28,7 +28,6 @@ class Gallery extends Admin_Controller {
             $this->data['gallery'] = $this->gallery_m->get_new();
         }
 
-
         //Set up the form
         $rules = $this->gallery_m->_rules;
         $this->form_validation->set_rules($rules);
@@ -51,6 +50,26 @@ class Gallery extends Admin_Controller {
     public function delete($id){
         $this->gallery_m->delete($id);
         redirect('admin/gallery');
+    }
+
+    public function add_images() {
+
+        // Upload files
+        $this->config->load('image');
+        $config = $this->config->item('upload');
+        $this->load->library('IH_Upload', $config);
+        $this->IH_Upload->do_multi_upload('files');
+
+        // Make a thumbnails
+        $this->load->helper('image_helper');
+        $files = $this->upload->get_multi_upload_data();
+        $this->image_helper->thumb($files);
+
+        //TODO Add to database
+
+        //
+        $this->data['subview'] = 'admin/gallery/add_images';
+        $this->load->view('admin/_layout_main', $this->data);
     }
 
 

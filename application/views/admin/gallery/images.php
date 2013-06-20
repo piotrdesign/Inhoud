@@ -1,6 +1,6 @@
 <h3><?php echo 'Edit gallery '  ?></h3>
 <?php echo $error; ?>
-<?php echo form_open_multipart('admin/uploader/do_upload/' . $this->uri->segment(4)); ?>
+<?php echo form_open_multipart(); ?>
 <table class="table">
     <tr>
         <td>Wybierz pliki:</td>

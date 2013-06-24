@@ -5,6 +5,7 @@ class Gallery extends Admin_Controller {
     public function __construct() {
         parent::__construct();
         $this->load->model('gallery_m');
+        $this->load->model('uploader_m');
     }
 
     public function index(){
@@ -52,25 +53,59 @@ class Gallery extends Admin_Controller {
         redirect('admin/gallery');
     }
 
-    public function add_images() {
+    public function add_images($id) {
+
+        // TODO add exceptions
+
+        //Load libraries
+        $this->load->library('upload');
+        $this->load->library('image_lib');
+
+        //Load settings
+        $this->config->load('image');
+        $config_upload = $this->config->item('upload');
+        $config_resize = $this->config->item('resize');
+        $config_thumbs = $this->config->item('thumbnails');
 
         // Upload files
-        $this->config->load('image');
-        $config = $this->config->item('upload');
-        $this->load->library('IH_Upload', $config);
-        $this->IH_Upload->do_multi_upload('files');
+        $this->upload->initialize($config_upload);
+        $this->upload->do_multi_upload('files');
 
-        // Make a thumbnails
-        $this->load->helper('image_helper');
+        // Prepare for new images
         $files = $this->upload->get_multi_upload_data();
-        $this->image_helper->thumb($files);
+        $source = $config_upload['upload_path'];
 
-        //TODO Add to database
+        foreach($files as $file) {
 
-        //
-        $this->data['subview'] = 'admin/gallery/add_images';
+            // Resize orginal image
+            if( $file['image_width'] > $config_resize['width'] || $file['image_height'] > $config_resize['height'] ) {
+
+                $config_resize['source_image'] = $source . $file['file_name'];
+                $this->image_lib->initialize($config_resize);
+                $this->image_lib->resize();
+                $this->image_lib->clear();
+            }
+
+            // Create thumbnails
+            $config_thumbs['source_image'] = $source . $file['file_name'];
+            $this->image_lib->initialize($config_thumbs);
+            $this->image_lib->resize();
+            $this->image_lib->clear();
+
+            // Add to database
+            $data = array(
+                'url' => $source . $file['file_name'],
+                'thumbnail_url' => $config_thumbs['new_image'] . $file['file_name'],
+                'order' => '0',
+                'gallery_id' => $id
+            );
+
+            $this->uploader_m->save($data);
+        }
+
+        // Load the view
+        $this->data['subview'] = 'admin/gallery/images';
         $this->load->view('admin/_layout_main', $this->data);
     }
-
 
 }

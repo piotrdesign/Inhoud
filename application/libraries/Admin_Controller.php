@@ -6,7 +6,6 @@ class Admin_Controller extends IH_Controller {
         $this->load->helper('form');
         $this->load->library('form_validation');
         $this->load->library('session');
-        $this->load->library('upload');
         $this->load->model('user_m');
 
     //Login check

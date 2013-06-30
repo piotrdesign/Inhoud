@@ -8,7 +8,11 @@
     </tr>
     <tr>
         <td>Template</td>
-        <td><?php echo form_dropdown('template', array('page' => 'Page', 'news_archive' => 'News archive', 'homepage' => 'Homepage'), $this->input->post('template') ? $this->input->post('template') : $page->template); ?></td>
+        <td><?php echo form_dropdown('template', array('page' => 'Page', 'news_archive' => 'News archive', 'homepage' => 'Homepage', 'gallery' => "Gallery"), $this->input->post('template') ? $this->input->post('template') : $page->template); ?></td>
+    </tr>
+    <tr class="page_galleries" style="display: none;">
+        <td>Wybierz galerię:</td>
+        <td><?php foreach($galleries as $gallery){ echo $gallery; }; ?></td>
     </tr>
     <tr>
         <td>Title</td>
@@ -28,3 +32,16 @@
     </tr>
 </table>
 <?php echo form_close(); ?>
+
+<script>
+    $("select").change(function(evt) {
+        var selected;
+        selected = $(this).val();
+        if (selected === "gallery") {
+            return $(".page_galleries").fadeIn();
+        } else {
+            return $(".page_galleries").fadeOut();
+        }
+    }).change();
+</script>
+

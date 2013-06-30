@@ -53,6 +53,9 @@ class Gallery extends Admin_Controller {
         redirect('admin/gallery');
     }
 
+
+    // Images manager
+
     public function add_images($id) {
 
         // TODO add exceptions
@@ -95,7 +98,7 @@ class Gallery extends Admin_Controller {
             // Add to database
             $data = array(
                 'url' => $source . $file['file_name'],
-                'thumbnail_url' => $config_thumbs['new_image'] . $file['file_name'],
+                'thumbnail_url' => $config_thumbs['new_image'] . $file['raw_name'] . $config_thumbs['thumb_marker'] . $file['file_ext'],
                 'order' => '0',
                 'gallery_id' => $id
             );
@@ -104,8 +107,34 @@ class Gallery extends Admin_Controller {
         }
 
         // Load the view
+        $this->data['gallery_id'] = $id;
+        $this->data['sortable'] = TRUE;
         $this->data['subview'] = 'admin/gallery/images';
         $this->load->view('admin/_layout_main', $this->data);
+
+    }
+
+    public function order_ajax() {
+        // Load gallery id
+        $this->data['gallery_id'] = $this->uri->segment(4);
+
+        // Save order from ajax call
+        if (isset($_POST['sortable'])) {
+            $this->uploader_m->save_order($_POST['sortable']);
+        }
+
+        // Fetch all pages
+        $this->data['images'] = $this->uploader_m->get_images($this->data['gallery_id']);
+
+        // Load view
+
+        $this->load->view('admin/gallery/order_ajax', $this->data);
+    }
+
+    public function delete_image($gallery_id, $id) {
+        $this->uploader_m->delete($id);
+        redirect('admin/gallery/manager/' . $gallery_id);
+
     }
 
 }

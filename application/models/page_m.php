@@ -55,8 +55,7 @@ class Page_m extends IH_Model {
 
     }
 
-    public function save_order ($pages)
-    {
+    public function save_order ($pages) {
         if (count($pages)) {
             foreach ($pages as $order => $page) {
                 if ($page['item_id'] != '') {
@@ -67,11 +66,9 @@ class Page_m extends IH_Model {
         }
     }
 
-    public function get_nested ()
-    {
+    public function get_nested () {
         $this->db->order_by($this->_order_by);
         $pages = $this->db->get('pages')->result_array();
-
         $array = array();
         foreach ($pages as $page) {
             if (! $page['parent_id']) {

@@ -23,7 +23,7 @@
         'create_thumb'    => TRUE,
         'thumb_marker'    => '_thumb',
         'maintain_ratio'  => TRUE,
-        'width'           => '75',
-        'height'          => '50',
+        'width'           => '260',
+        'height'          => '180',
         'new_image'       =>'uploads/gallery/thumbs/'
     );

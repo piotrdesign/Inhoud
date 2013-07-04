@@ -1,6 +1,6 @@
 <section>
-    <h2>Galleries</h2>
-    <?php echo anchor('admin/gallery/edit', '<i class="icon-plus"></i> Add a gallery'); ?>
+    <h2>Galerie zdjęć</h2>
+    <?php echo anchor('admin/gallery/edit', '<i class="icon-plus"></i> dodaj galerię zdjęć'); ?>
     <table class="table table-striped">
         <thead>
         <tr>
@@ -21,7 +21,7 @@
         <?php endforeach; ?>
         <?php else: ?>
             <tr>
-                <td colspan="3">We could not find any galleries.</td>
+                <td colspan="3">uuu... w bazie nie mamy żadnych galerii. Dodaj jakieś!</td>
             </tr>
         <?php endif; ?>
         </tbody>

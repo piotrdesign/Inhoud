@@ -102,7 +102,7 @@ class Page_m extends IH_Model {
         $pages = parent::get();
 
         //Return key => value pair array
-        $array = array(0 => 'No parent');
+        $array = array(0 => 'Brak');
 
         if (count($pages)) {
             foreach ($pages as $page) {

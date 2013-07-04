@@ -5,9 +5,9 @@
     $config['upload'] = array(
         'upload_path'     => './uploads/gallery/',
         'allowed_types'   => 'gif|jpg|png',
-        'max_size'        => '100',
-        'max_width'       => '1024',
-        'max_height'      => '768'
+        'max_size'        => '',
+        'max_width'       => '',
+        'max_height'      => ''
     );
 
     $config['resize'] = array(

@@ -1,6 +1,7 @@
-<h3><?php echo 'Edit gallery '  ?></h3>
+<h3><?php echo 'Dodaj zdjęcia do galerii '  ?></h3>
 
 <?php echo form_open_multipart(); ?>
+<p class="alert alert-info">Możesz wybrać kilka plików naraz używając klawisza CTRL lub SHIFT</p>
 <table class="table">
     <tr>
         <td>Wybierz pliki:</td>
@@ -8,16 +9,16 @@
     </tr>
     <tr>
         <td></td>
-        <td><?php echo form_submit('submit', 'Upload', 'class="btn btn-primary"'); ?></td>
+        <td><?php echo form_submit('submit', 'Wyślij', 'class="btn btn-primary"'); ?></td>
     </tr>
 </table>
 <?php echo form_close(); ?>
 
 <section>
-    <h3>Order images</h3>
-    <p class="alert alert-info">Drag to order images and then click "Save"</p>
+    <h3>Kolejność zdjęć</h3>
+    <p class="alert alert-info">Chwyć zdjęcie i przesuń w odpowiednie miejsce. Po tej czynności wybierz "Zapisz"</p>
     <div id="orderResult"></div>
-    <input type="button" id="save" value="Save" class="btn btn-primary" />
+    <input type="button" id="save" value="Zapisz" class="btn btn-primary" />
 </section>
 
 <script>

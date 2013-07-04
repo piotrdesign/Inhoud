@@ -1,12 +1,12 @@
 <section>
-    <h2>Users</h2>
-    <?php echo anchor('admin/user/edit', '<i class="icon-plus"></i> Add a user'); ?>
+    <h2>Użytkownicy</h2>
+    <?php echo anchor('admin/user/edit', '<i class="icon-plus"></i> dodaj użytkownika'); ?>
     <table class="table table-striped">
         <thead>
             <tr>
                 <th>Email</th>
-                <th>Edit</th>
-                <th>Delete</th>
+                <th>Edytuj</th>
+                <th>Usuń</th>
             </tr>
         </thead>
         <tbody>
@@ -19,7 +19,7 @@
             <?php endforeach; ?>
         <?php else: ?>
             <tr>
-                <td colspan="3">We could not find any users.</td>
+                <td colspan="3">uuuu... nie mogliśmy znaleźć żadnych użytkowników</td>
             </tr>
         <?php endif; ?>
         </tbody>

@@ -1,13 +1,13 @@
 <section>
-    <h2>News articles</h2>
-    <?php echo anchor('admin/article/edit', '<i class="icon-plus"></i> Add a article'); ?>
+    <h2>Artykuły</h2>
+    <?php echo anchor('admin/article/edit', '<i class="icon-plus"></i> dodaj artykuł'); ?>
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>Title</th>
-                <th>Pubdate</th>
-                <th>Edit</th>
-                <th>Delete</th>
+                <th>Tytył</th>
+                <th>Data publikacji</th>
+                <th>Edytuj</th>
+                <th>Usuń</th>
             </tr>
         </thead>
         <tbody>
@@ -21,7 +21,7 @@
             <?php endforeach; ?>
         <?php else: ?>
             <tr>
-                <td colspan="3">We could not find any articles.</td>
+                <td colspan="3">uuu... w bazie nie mamy żadnych artykułów. Dodaj jakiś!</td>
             </tr>
         <?php endif; ?>
         </tbody>

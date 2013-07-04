@@ -1,4 +1,4 @@
-<h2>Recently modified articles</h2>
+<h2>Ostatnio modyfikowane artykuły:</h2>
 
 <?php if(count($recent_articles)) : ?>
 <ul>

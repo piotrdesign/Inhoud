@@ -24,6 +24,6 @@ class Article extends Frontend_Controller {
         // Load view
         add_meta_title($this->data['article']->title);
         $this->data['subview'] = 'article';
-        $this->load->view('_main_layout', $this->data);
+        $this->load->view('_main_layout2', $this->data);
     }
 }

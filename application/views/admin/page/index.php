@@ -1,13 +1,13 @@
 <section>
-    <h2>Pages</h2>
-    <?php echo anchor('admin/page/edit', '<i class="icon-plus"></i> Add a page'); ?>
+    <h2>Strony</h2>
+    <?php echo anchor('admin/page/edit', '<i class="icon-plus"></i> dodaj stronę'); ?>
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>Title</th>
-                <th>Parent</th>
-                <th>Edit</th>
-                <th>Delete</th>
+                <th>Tytuł</th>
+                <th>Rodzic</th>
+                <th>Edytuj</th>
+                <th>Usuń</th>
             </tr>
         </thead>
         <tbody>
@@ -21,7 +21,7 @@
             <?php endforeach; ?>
         <?php else: ?>
             <tr>
-                <td colspan="3">We could not find any pages.</td>
+                <td colspan="3">Nie mogliśmy znaleźć żadnej strony. Dodaj jakąś!</td>
             </tr>
         <?php endif; ?>
         </tbody>

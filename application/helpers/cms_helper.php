@@ -78,7 +78,7 @@ function get_menu($array, $child = FALSE)
     $str = '';
 
     if (count($array)) {
-        $str .= $child == FALSE ? '<ul class="nav">' . PHP_EOL : '<ul class="dropdown-menu">' . PHP_EOL;
+        $str .= $child == FALSE ? '<ul class="nav main-menu">' . PHP_EOL : '<ul class="nav main-menu">' . PHP_EOL;
 
         foreach ($array as $item) {
 

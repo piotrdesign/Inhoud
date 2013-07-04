@@ -1,21 +1,21 @@
-<h3><?php echo empty($page->id) ? 'Add a new page' : 'Edit page ' . $page->title; ?></h3>
+<h3><?php echo empty($page->id) ? 'Dodaj nową stronę' : 'Edytuj stronę: ' . $page->title; ?></h3>
 <?php echo validation_errors(); ?>
 <?php echo form_open(); ?>
 <table class="table">
     <tr>
-        <td>Parent</td>
+        <td>Rodzic</td>
         <td><?php echo form_dropdown('parent_id', $pages_no_parents, $this->input->post('parent_id') ? $this->input->post('parent_id') : $page->parent_id); ?></td>
     </tr>
     <tr>
-        <td>Template</td>
-        <td><?php echo form_dropdown('template', array('page' => 'Page', 'news_archive' => 'News archive', 'homepage' => 'Homepage', 'gallery' => "Gallery"), $this->input->post('template') ? $this->input->post('template') : $page->template); ?></td>
+        <td>Szablon</td>
+        <td><?php echo form_dropdown('template', array('page' => 'Strona', 'news_archive' => 'Aktualności', 'homepage' => 'Strona główna', 'gallery' => "Galeria"), $this->input->post('template') ? $this->input->post('template') : $page->template); ?></td>
     </tr>
     <tr class="page_galleries" style="display: none;">
         <td>Wybierz galerię:</td>
         <td><?php foreach($galleries as $gallery) { echo form_label(form_checkbox('galleries_id[]', $gallery->id, is_array($page->galleries_id) ? in_array($gallery->id, $page->galleries_id) : FALSE, 'id=' . $gallery->id ) . ' ' . $gallery->name, $gallery->id, array('class' => 'checkbox') ); } ?></td>
     </tr>
     <tr>
-        <td>Title</td>
+        <td>Tytuł</td>
         <td><?php echo form_input('title', set_value('title', $page->title)); ?></td>
     </tr>
     <tr>
@@ -23,7 +23,7 @@
         <td><?php echo form_input('slug', set_value('slug', $page->slug)); ?></td>
     </tr>
     <tr>
-        <td>Body</td>
+        <td>Treść</td>
         <td><?php echo form_textarea('body', set_value('body', $page->body), 'class="tinymce"'); ?></td>
     </tr>
     <tr>

@@ -1,6 +1,6 @@
 <div class="modal-header">
-    <h3>Log in</h3>
-    <p>Please log in using your credentials</p>
+    <h3>Logowanie</h3>
+    <p>Zaloguj sie używając swoich danych</p>
 </div>
 <div class="modal-body">
     <?php echo validation_errors(); ?>
@@ -11,12 +11,12 @@
             <td><?php echo form_input('email'); ?></td>
         </tr>
         <tr>
-            <td>Password</td>
+            <td>Hasło</td>
             <td><?php echo form_password('password'); ?></td>
         </tr>
         <tr>
             <td></td>
-            <td><?php echo form_submit('submit', 'Log in', 'class="btn btn-primary"'); ?></td>
+            <td><?php echo form_submit('submit', 'Zaloguj się', 'class="btn btn-primary"'); ?></td>
         </tr>
     </table>
     <?php echo form_close(); ?>

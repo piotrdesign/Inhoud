@@ -35,6 +35,20 @@ function article_links($articles){
     return $string;
 }
 
+function show_images($gallery) {
+    $string =  '<ul class = thumbnails>';
+    foreach($gallery as $category => $images) {
+        foreach($images as $image) {
+            $string .= '<li class="span3">';
+            $string .= '<a href="' . $image['url'] . '" class="fancybox" data-fancybox-group="gallery">';
+            $string .= '<img src="' . $image['thumbnail_url'] . '" alt="">';
+            $string .= '</a>' . PHP_EOL;
+        }
+    }
+    $string .= '</ul>';
+    return $string;
+}
+
 function get_excerpt($article, $numwords = 50) {
     $string = '';
     $url = article_link($article);

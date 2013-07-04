@@ -15,7 +15,7 @@ class Uploader_m extends IH_Model {
         }
     }
 
-    public function get_images ($id) {
+    public function get_images($id) {
         $this->db->order_by($this->_order_by);
         $this->db->where('gallery_id', $id);
         $images = $this->db->get('images')->result_array();

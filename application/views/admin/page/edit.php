@@ -12,7 +12,7 @@
     </tr>
     <tr class="page_galleries" style="display: none;">
         <td>Wybierz galerię:</td>
-        <td><?php foreach($galleries as $gallery){ echo $gallery; }; ?></td>
+        <td><?php foreach($galleries as $gallery) { echo form_label(form_checkbox('galleries_id[]', $gallery->id, is_array($page->galleries_id) ? in_array($gallery->id, $page->galleries_id) : FALSE, 'id=' . $gallery->id ) . ' ' . $gallery->name, $gallery->id, array('class' => 'checkbox') ); } ?></td>
     </tr>
     <tr>
         <td>Title</td>

@@ -28,6 +28,11 @@ class Page_m extends IH_Model {
             'field' => 'body',
             'label' => 'Body',
             'rules' => 'trim|required'
+        ),
+        'galleries_id' => array(
+            'field'  => 'galleries_id[]',
+            'label' => 'checkbox',
+            'rules'  => 'trim',
         )
     );
 
@@ -38,6 +43,7 @@ class Page_m extends IH_Model {
         $page->body = '';
         $page->parent_id = 0;
         $page->template = 'page';
+        $page->galleries_id = '';
         return $page;
     }
 
